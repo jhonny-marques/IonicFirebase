@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-  apiKey: "AIzaSyA12Rr7OpbDqahfoC_mQpoWAX7CJMGyTzI",
-  authDomain: "ionicfirebase-c0b24.firebaseapp.com",
-  projectId: "ionicfirebase-c0b24",
-  storageBucket: "ionicfirebase-c0b24.firebasestorage.app",
-  messagingSenderId: "555814140300",
-  appId: "1:555814140300:web:09778bf09a8d191bcf3ea9",
-  measurementId: "G-XDL53Z1RFC"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 }
 };
 
