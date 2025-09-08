@@ -15,14 +15,18 @@ const routes: Routes = [
     path: 'pets-list',
     loadChildren: () => import('./pages/pets-list/pets-list.module').then( m => m.PetsListPageModule)
   },
+  // {
+  //   path: 'pets-list/:id',
+  //   loadChildren: () => import('./pages/pets-list/pets-list.module').then( m => m.PetsListPageModule)
+  // },
   {
-    path: 'pets-list/:id',
-    loadChildren: () => import('./pages/pets-list/pets-list.module').then( m => m.PetsListPageModule)
-  },
-  {
-    path: 'pets-detail',
+    path: 'pets-detail', // Rota para adicionar o pet
     loadChildren: () => import('./pages/pets-detail/pets-detail.module').then( m => m.PetsDetailPageModule)
   },
+  {
+    path: 'pets-detail/:id', // Rota para editar o pet
+    loadChildren: () => import('./pages/pets-detail/pets-detail.module').then( m => m.PetsDetailPageModule)
+  }
 ];
 
 @NgModule({
