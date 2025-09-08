@@ -1,0 +1,7 @@
+{
+  "name": "appGerenciamentoIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
