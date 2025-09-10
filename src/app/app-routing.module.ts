@@ -26,7 +26,20 @@ const routes: Routes = [
   {
     path: 'pets-detail/:id', // Rota para editar o pet
     loadChildren: () => import('./pages/pets-detail/pets-detail.module').then( m => m.PetsDetailPageModule)
-  }
+  },
+  {
+    path: 'cuidadores-list',
+    loadChildren: () => import('./pages/cuidadores-list/cuidadores-list.module').then( m => m.CuidadoresListPageModule)
+  },
+  {
+    path: 'cuidadores-detail',
+    loadChildren: () => import('./pages/cuidadores-detail/cuidadores-detail.module').then( m => m.CuidadoresDetailPageModule)
+  },
+  {
+    path: 'cuidadores-detail/:id',
+    loadChildren: () => import('./pages/cuidadores-detail/cuidadores-detail.module').then( m => m.CuidadoresDetailPageModule)
+  },
+
 ];
 
 @NgModule({
